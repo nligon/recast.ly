@@ -2,7 +2,7 @@ var VideoList = (props) => (
   <div className="video-list media">
     {props.data.map( videoData =>
       <VideoListEntry videoData={videoData} />
-    )};
+    )}
   </div>
 );
 
